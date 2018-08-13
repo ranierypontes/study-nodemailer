@@ -1,0 +1,25 @@
+{
+  "name": "study-nodemailer",
+  "version": "1.0.0",
+  "description": "studying nodemailer",
+  "main": "email.js",
+  "dependencies": {
+    "nodemailer": "^4.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node email.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ranierypontes@bitbucket.org/ranierypontes/study-nodemailer.git"
+  },
+  "keywords": [
+    "nodejs",
+    "nodemailer"
+  ],
+  "author": "Raniery Pontes",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ranierypontes/study-nodemailer#readme"
+}

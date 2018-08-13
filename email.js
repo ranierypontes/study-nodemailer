@@ -7,6 +7,7 @@ var transporter = nodemailer.createTransport({
     port: 587,
     secure: false, // se a porta for 465 == true, qualquer == false
     auth: {
+        // Configurar user/password
         user: 'emailhost',
         pass: 'password...'
     }
@@ -14,8 +15,8 @@ var transporter = nodemailer.createTransport({
 
 // Configura a mensagem...
 var msg = {
-    from: 'emailhost',
-    to: 'emailreceiver',
+    from: 'emailhost',   // Email que envia a mensagem
+    to: 'emailreceiver', // Email que recebe a mensagem
     subject: 'Esse é o meu primeiro email usando Nodemailer!',
     text: "Oi, tudo bem? Testando primeira mensagem usando Nodemailer :)",
     html: "<div style='width: 100vh; height: auto; margin-right: auto; margin-left: auto;'>" +
